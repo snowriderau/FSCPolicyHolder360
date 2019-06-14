@@ -1,0 +1,21 @@
+<aura:component controller="INS_AgentNoteEventCtrl" implements="lightning:isUrlAddressable,force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,forceCommunity:availableForAllPageTypes,force:lightningQuickAction" 
+                access="global" >
+    
+    <lightning:workspaceAPI aura:id="workspace" />
+    <aura:handler event="force:navigateToSObject" action="{!c.navigateToRecord}"/>
+    <aura:attribute name="note" type="String" />
+    
+    <aura:registerEvent name="refreshEvent" type="c:INS_RefreshEvent"/>
+    
+    <lightning:card iconName="standard:note">
+        <aura:set attribute="title">
+           {!$Label.c.IDO_AgentNote}
+        </aura:set>
+        <aura:set attribute="actions">
+            <lightning:button label="Submit" variant="brand" onclick="{!c.submitTheNote }"/>
+        </aura:set>        
+        <p class="slds-p-horizontal_small">
+            <ui:inputTextarea value="{! v.note }" />
+        </p>
+    </lightning:card>
+</aura:component>

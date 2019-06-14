@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AgentNote</fullName>
+    <types>
+        <members>INS_AgentNoteEventCtrl</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>INS_AgentNote_LifeEvents</members>
+        <members>INS_RefreshEvent</members>
+        <name>AuraDefinitionBundle</name>
+    </types>
+    <types>
+        <members>IDO_AgentNote</members>
+        <members>IDO_NewBaby</members>
+        <name>CustomLabel</name>
+    </types>
+    <types>
+        <members>CustomLabels</members>
+        <name>CustomLabels</name>
+    </types>
+    <version>46.0</version>
+</Package>

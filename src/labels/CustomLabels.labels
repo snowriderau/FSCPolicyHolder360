@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>IDO_AgentNote</fullName>
+        <categories>IDO,PersonAccount</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>IDO_AgentNote</shortDescription>
+        <value>Add Agent Note</value>
+    </labels>
+    <labels>
+        <fullName>IDO_NewBaby</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>IDO_NewBaby</shortDescription>
+        <value>Baby in 6 Months</value>
+    </labels>
+</CustomLabels>
